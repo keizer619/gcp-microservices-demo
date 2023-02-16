@@ -13,14 +13,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
-( cd cart ; bal build --cloud=docker)
-( cd currency ; bal build --cloud=docker)
-( cd email ; bal build --cloud=docker)
-( cd payment ; bal build --cloud=docker)
-( cd productcatalog ; bal build --cloud=docker)
-( cd recommendation ; bal build --cloud=docker)
-( cd shipping ; bal build --cloud=docker)
-( cd ads ; bal build --cloud=docker)
-( cd checkout ; bal build --cloud=docker)
+( cd client_stubs ; bal pack ; bal push --repository local)
+( cd money ; bal pack ; bal push --repository local)
+( cd cartservice ; bal build --cloud=docker)
+( cd currencyservice ; bal build --cloud=docker)
+( cd emailservice ; bal build --cloud=docker)
+( cd paymentservice ; bal build --cloud=docker)
+( cd productcatalogservice ; bal build --cloud=docker)
+( cd recommendationservice ; bal build --cloud=docker)
+( cd shippingservice ; bal build --cloud=docker)
+( cd adservice ; bal build --cloud=docker)
+( cd checkoutservice ; bal build --cloud=docker)
 ( cd frontend ; bal build --cloud=docker)

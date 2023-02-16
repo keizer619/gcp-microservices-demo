@@ -1,34 +1,37 @@
 {
 	"folders": [
 		{
-			"path": "ads"
+			"path": "adservice"
 		},
 		{
-			"path": "cart"
+			"path": "cartservice"
 		},
 		{
-			"path": "checkout"
+			"path": "checkoutservice"
 		},
 		{
-			"path": "currency"
+			"path": "currencyservice"
 		},
 		{
-			"path": "email"
+			"path": "emailservice"
 		},
 		{
 			"path": "frontend"
 		},
 		{
-			"path": "payment"
+			"path": "paymentservice"
 		},
 		{
-			"path": "productcatalog"
+			"path": "productcatalogservice"
 		},
 		{
-			"path": "recommendation"
+			"path": "recommendationservice"
 		},
 		{
-			"path": "shipping"
+			"path": "shippingservice"
+		},
+		{
+			"path": "client_stubs"
 		},
 		{
 			"path": "ui"
